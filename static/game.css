@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-board {
+    display: flex; /* フレックスコンテナを作成 */
+    flex-wrap: wrap; /* コンテナ内の要素が折り返すようにする */
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #98FB98; /* バーの初期色 */
+    transition: width linear; /* アニメーションの設定 */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: calc(50% - 25px);
+    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    transition: background-color 500ms;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-weight: bold;
+}
